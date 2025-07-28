@@ -1,0 +1,131 @@
+-- Merging decision tree log ---
+meta-data#plugin-api
+INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:11:9-81
+	android:value
+		INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:11:46-79
+	android:name
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:11:20-45
+manifest
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:1:1-71:12
+INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:1:1-71:12
+INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:1:1-71:12
+INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:1:1-71:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Apple/.gradle/caches/transforms-3/ad6d5a2adf312d65183193700fe9970a/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.7.2] /Users/Apple/.gradle/caches/transforms-3/a0998c5d4abea8d642b3389b3f90afb9/transformed/monitor-1.7.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/Apple/.gradle/caches/transforms-3/ab80e6c2ee62fca5a237e268a0b2aafc/transformed/tracing-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:1:1-71:12
+INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:1:1-71:12
+INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:1:1-71:12
+	package
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:1:1-71:12
+		INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:1:1-71:12
+		INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:5:5-69:19
+	android:label
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:7:9-45
+	android:allowBackup
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:6:9-36
+	android:description
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:9:9-47
+	android:theme
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:10:9-40
+meta-data#app_desc
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:12:9-78
+	android:value
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:12:44-76
+	android:name
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:12:20-43
+provider#com.javacodegeeks.android.contentprovidertest.BirthProvider
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:16:9-19:20
+	android:authorities
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:17:13-70
+	android:exported
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:16:19-93
+service#com.atakmap.android.helloworld.notification.NotificationService
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:21:9-28:19
+	android:label
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:22:13-91
+intent-filter#action:name:com.atakmap.android.helloworld.notification.NotificationService
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:25:13-27:29
+action#com.atakmap.android.helloworld.notification.NotificationService
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:26:17-105
+	android:name
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:26:25-103
+activity#com.atakmap.android.helloworld.CameraActivity
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:33:13-36
+	android:configChanges
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:34:13-48
+	android:theme
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:32:13-83
+	android:name
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:31:13-73
+activity#com.atakmap.android.helloworld.speechtotext.SpeechToActivity
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:49:9-58:20
+	android:launchMode
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:54:13-43
+	android:exported
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:52:13-36
+	android:configChanges
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:53:13-48
+	android:theme
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:51:13-53
+	android:name
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:50:13-88
+intent-filter#action:name:com.atakmap.android.helloworld.SpeechToActivity
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:55:13-57:29
+action#com.atakmap.android.helloworld.SpeechToActivity
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:56:17-89
+	android:name
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:56:25-87
+activity#com.atakmap.app.component
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:61:8-66:19
+	tools:ignore
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:62:12-39
+	android:name
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:61:18-58
+intent-filter#action:name:com.atakmap.app.component
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:63:12-65:28
+	android:label
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:63:27-59
+action#com.atakmap.app.component
+ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:64:15-66
+	android:name
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:64:23-63
+uses-sdk
+INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Apple/.gradle/caches/transforms-3/ad6d5a2adf312d65183193700fe9970a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Apple/.gradle/caches/transforms-3/ad6d5a2adf312d65183193700fe9970a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.7.2] /Users/Apple/.gradle/caches/transforms-3/a0998c5d4abea8d642b3389b3f90afb9/transformed/monitor-1.7.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.7.2] /Users/Apple/.gradle/caches/transforms-3/a0998c5d4abea8d642b3389b3f90afb9/transformed/monitor-1.7.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/Apple/.gradle/caches/transforms-3/ab80e6c2ee62fca5a237e268a0b2aafc/transformed/tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/Apple/.gradle/caches/transforms-3/ab80e6c2ee62fca5a237e268a0b2aafc/transformed/tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		ADDED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Apple/.gradle/caches/transforms-3/ad6d5a2adf312d65183193700fe9970a/transformed/recyclerview-1.1.0/AndroidManifest.xml:22:9-38
+	android:minSdkVersion
+		INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml

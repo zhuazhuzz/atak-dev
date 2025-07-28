@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atakmap.android.helloworld.plugin"
+4    android:versionCode="1"
+5    android:versionName="1.0 () - [4.5.1]" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->[androidx.recyclerview:recyclerview:1.1.0] /Users/Apple/.gradle/caches/transforms-3/ad6d5a2adf312d65183193700fe9970a/transformed/recyclerview-1.1.0/AndroidManifest.xml:22:9-38
+10
+11    <application
+11-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:5:5-69:19
+12        android:allowBackup="false"
+12-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:6:9-36
+13        android:debuggable="true"
+14        android:description="@string/app_desc"
+14-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:9:9-47
+15        android:icon="@drawable/ic_launcher"
+15-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:7:9-45
+16        android:label="@string/app_name"
+16-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:8:9-41
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:10:9-40
+19        <meta-data
+20            android:name="plugin-api"
+20-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:11:20-45
+21            android:value="com.atakmap.app@4.5.1.CIV" />
+21-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:11:46-79
+22        <meta-data
+22-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:12:9-78
+23            android:name="app_desc"
+23-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:12:20-43
+24            android:value="@string/app_desc" />
+24-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:12:44-76
+25
+26        <provider
+26-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:16:9-19:20
+27            android:name="com.javacodegeeks.android.contentprovidertest.BirthProvider"
+27-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:16:19-93
+28            android:authorities="com.javacodegeeks.provider.Birthday"
+28-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:17:13-70
+29            android:exported="true" >
+29-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:18:13-36
+30        </provider>
+31
+32        <service
+32-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:21:9-28:19
+33            android:name="com.atakmap.android.helloworld.notification.NotificationService"
+33-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:22:13-91
+34            android:label="Plugin Notification Service" >
+34-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:23:13-56
+35            <intent-filter>
+35-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:25:13-27:29
+36                <action android:name="com.atakmap.android.helloworld.notification.NotificationService" />
+36-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:26:17-105
+36-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:26:25-103
+37            </intent-filter>
+38        </service>
+39
+40        <activity
+40-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:30:9-35:20
+41            android:name="com.atakmap.android.helloworld.CameraActivity"
+41-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:31:13-73
+42            android:configChanges="orientation"
+42-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:34:13-48
+43            android:exported="true"
+43-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:33:13-36
+44            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+44-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:32:13-83
+45        </activity>
+46
+47        <!--
+48        Commented out, functionality absorbed by SpeechToActivity
+49        <activity
+50            android:name="com.atakmap.android.helloworld.SpeechToTextActivity"
+51            android:theme="@style/AppTheme"
+52            android:exported="true"
+53            android:configChanges="orientation"
+54            android:launchMode="singleTop">
+55            <intent-filter>
+56                <action android:name="com.atakmap.android.helloworld.SpeechToTextActivity"/>
+57            </intent-filter>
+58        </activity>
+59        -->
+60        <activity
+60-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:49:9-58:20
+61            android:name="com.atakmap.android.helloworld.speechtotext.SpeechToActivity"
+61-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:50:13-88
+62            android:configChanges="orientation"
+62-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:53:13-48
+63            android:exported="true"
+63-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:52:13-36
+64            android:launchMode="singleTop"
+64-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:54:13-43
+65            android:theme="@style/Theme.Transparent" >
+65-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:51:13-53
+66            <intent-filter>
+66-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:55:13-57:29
+67                <action android:name="com.atakmap.android.helloworld.SpeechToActivity" />
+67-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:56:17-89
+67-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:56:25-87
+68            </intent-filter>
+69        </activity>
+70
+71        <!-- allow for plugin discovery -->
+72        <activity android:name="com.atakmap.app.component" >
+72-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:61:8-66:19
+72-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:61:18-58
+73            <intent-filter android:label="@string/app_name" >
+73-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:63:12-65:28
+73-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:63:27-59
+74                <action android:name="com.atakmap.app.component" />
+74-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:64:15-66
+74-->/Users/Apple/Documents/GitHub/atak-civ/plugin-examples/helloworld/app/src/main/AndroidManifest.xml:64:23-63
+75            </intent-filter>
+76        </activity>
+77    </application>
+78
+79</manifest>

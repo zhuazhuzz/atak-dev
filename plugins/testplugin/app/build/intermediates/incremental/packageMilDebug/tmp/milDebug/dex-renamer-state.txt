@@ -1,0 +1,10 @@
+#Thu Jul 24 22:17:00 EDT 2025
+base.2=/Users/Apple/Documents/GitHub/atak-civ/plugins/testplugin/app/build/intermediates/dex/milDebug/mergeProjectDexMilDebug/7/classes.dex
+path.2=7/classes.dex
+base.1=/Users/Apple/Documents/GitHub/atak-civ/plugins/testplugin/app/build/intermediates/dex/milDebug/mergeProjectDexMilDebug/1/classes.dex
+path.1=1/classes.dex
+base.0=/Users/Apple/Documents/GitHub/atak-civ/plugins/testplugin/app/build/intermediates/dex/milDebug/mergeProjectDexMilDebug/0/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex

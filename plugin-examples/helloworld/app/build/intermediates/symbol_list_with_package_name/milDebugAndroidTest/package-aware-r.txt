@@ -1,0 +1,1 @@
+com.atakmap.android.helloworld.plugin.test

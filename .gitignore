@@ -1,0 +1,94 @@
+# Gradle build outputs
+/build/
+*/build/
+.gradle/
+.cxx/
+
+# Local configuration files
+local.properties
+*.properties
+
+# Signing keys
+*.jks
+*.keystore
+keystore/
+keys/
+*/keystore/
+*/keys/
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Output artifacts
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+*.aar
+
+# NDK / CMake
+.cxx/
+obj/
+libs/
+externalNativeBuild/
+
+# Logs & crash reports
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary / swap / backup files
+*.tmp
+*.temp
+*.orig
+*.swp
+*.bak
+
+# Test results
+test-results/
+*.ec
+
+# Firebase / Google services
+google-services.json
+*.plist
+
+# Renderscript
+generated/
+
+# Jetpack Compose
+compose-compiler/
+
+# Android Lint
+lint/intermediates/
+
+
+# Plugin packaging
+*.atakplugin
+atak_plugins/
+atak_plugin_output/
+*.zip
+
+# ATAK Plugin Tools
+atak_plugin_template/
+atak_plugin_packager/
+atak_plugin_configs/
+atak_plugin_resources/
+
+plugin_builds/
+plugin_release/
+
+.git/
+*.patch
+*.diff
+*.orig
+*.rej
+.git/hooks/
+.git/info/
+.gitmodules
+*.goutputstream*
