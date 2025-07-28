@@ -1,6 +1,6 @@
 # ATAK Plugin Testing Grounds
 
-This repo is just a place for me to mess around with ATAK plugin development.
+This repo is just a place for me to mess around with ATAK plugin development, specifically Civ-Tak, or Civilian ATAK.
 You’ll probably find random experiments, unfinished plugins, or testing code here.
 
 ## Purpose
